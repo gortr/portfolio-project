@@ -1,0 +1,57 @@
+/*
+	Responsive CSS File
+*/
+
+@media only screen and (min-width: 550px) {
+	.row {
+		width: 98%;
+	}
+
+	.role,
+	h3,
+	a {
+		font-size: 1.50em;
+	}
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo {
+		width: 50%;
+		align-content: center;
+	}
+
+	.name {
+		margin-right: 45px;
+		text-align: right;
+		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.row {
+		width: 100%;
+	}
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo {
+		width: 40%;
+		align-content: center;
+	}
+
+	.name,
+	.role {
+		text-align: right;
+		margin-right: 0;
+	}
+
+	.role {
+		margin-left: 60px;
+	}
+}
