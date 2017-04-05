@@ -97,7 +97,7 @@ p {
 }
 
 .col-1 {
-	width: 8.33%;
+	width: calc(100% / 12);
 }
 
 .col-2 {
